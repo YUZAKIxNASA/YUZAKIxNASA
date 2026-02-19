@@ -7,36 +7,6 @@
 <h3 align="center">-
 जीवनस्य अर्थः ज्ञानं प्राप्तुं भवति।🕉️</h3>
 
-<h3 align="left">More About Me:</h3>
-
-- 💻 Custom Website Development – Crafting unique and fully functional websites from scratch.  
-
-- 🎨 Modern & Elegant UI/UX – Designing sleek, user-friendly, and visually appealing layouts.
-- ⚡ Responsive Design – Ensuring websites look great on all devices — mobile, tablet, and desktop.
-- 🚀 Fast & Optimized Performance – Speed matters! I build lightweight, high-speed websites.
-- 🌐 Custom Website Design – Creating unique and modern website layouts from scratch.
-- 🎨 UI/UX Design – Designing clean, user-friendly, and attractive interfaces.
-- 📱 Responsive Development – Making websites fully responsive for mobile, tablet, and desktop.
-- ⚡ Performance Optimization – Improving website speed and loading time.
-- 🧠 Frontend Development – Building interactive designs using HTML, CSS & JavaScript.
-- ⚙ Backend Development – Managing server, database, and website logic.
-- 🛒 E-commerce Development – Creating secure online shopping websites.
-- 🔐 Website Security – Implementing protection against common vulnerabilities.
-- 📊 SEO Optimization – Structuring websites to rank better on search engines.
-- 🎭 Animations & Effects – Adding smooth transitions and engaging UI effects.
-- 🧩 API Integration – Connecting third-party services and tools.
-- 📁 Admin Panel Development – Building custom dashboards for content management.
-- 🛠 Bug Fixing & Debugging – Finding and solving website issues quickly.
-- 🌍 Domain & Hosting Setup – Configuring live website environments.
-- 📢 Social Media Integration – Linking and embedding social platforms.
-- 📈 Analytics Setup – Tracking traffic and user behavior.
-- 🖌 Branding Implementation – Applying logos, themes, and visual identity.
-- 🧪 Testing & Cross-Browser Compatibility – Ensuring smooth performance everywhere.
-- 🔄 Website Maintenance – Updating and improving sites regularly.
-- 🚀 Continuous Innovation – Learning and applying modern web technologies.
-
-
-
 <h3 align="left">Connect with me:</h3>
 <div class="social-icons-wrapper">
 <p style="text-align: left; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
@@ -66,3 +36,59 @@
   <img src="https://skillicons.dev/icons?i=git" alt="Git" height="45" style="vertical-align: middle; margin: 5px;" />
 </p>
 </div>
+
+
+<h3 align="left">More About Me:</h3>
+
+<h3 align="center"> I'M WEBSITE DEVELOPER + WEBSITE DEVELOPER </h3>
+
+- 💻 Custom Website Development – Crafting unique and fully functional websites from scratch.  
+
+- 🎨 Modern & Elegant UI/UX – Designing sleek, user-friendly, and visually appealing layouts.
+- ⚡ Responsive Design – Ensuring websites look great on all devices — mobile, tablet, and desktop.
+- 🚀 Fast & Optimized Performance – Speed matters! I build lightweight, high-speed websites.
+- 🌐 Custom Website Design – Creating unique and modern website layouts from scratch.
+- 🎨 UI/UX Design – Designing clean, user-friendly, and attractive interfaces.
+- 📱 Responsive Development – Making websites fully responsive for mobile, tablet, and desktop.
+- ⚡ Performance Optimization – Improving website speed and loading time.
+- 🧠 Frontend Development – Building interactive designs using HTML, CSS & JavaScript.
+- ⚙ Backend Development – Managing server, database, and website logic.
+- 🛒 E-commerce Development – Creating secure online shopping websites.
+- 🔐 Website Security – Implementing protection against common vulnerabilities.
+- 📊 SEO Optimization – Structuring websites to rank better on search engines.
+- 🎭 Animations & Effects – Adding smooth transitions and engaging UI effects.
+- 🧩 API Integration – Connecting third-party services and tools.
+- 📁 Admin Panel Development – Building custom dashboards for content management.
+- 🛠 Bug Fixing & Debugging – Finding and solving website issues quickly.
+- 🌍 Domain & Hosting Setup – Configuring live website environments.
+- 📢 Social Media Integration – Linking and embedding social platforms.
+- 📈 Analytics Setup – Tracking traffic and user behavior.
+- 🖌 Branding Implementation – Applying logos, themes, and visual identity.
+- 🧪 Testing & Cross-Browser Compatibility – Ensuring smooth performance everywhere.
+- 🔄 Website Maintenance – Updating and improving sites regularly.
+- 🚀 Continuous Innovation – Learning and applying modern web technologies.
+
+<h3 align="center"> I'M GAME DEVELOPER </h3>
+
+
+- 🎮 Game Idea Creation – Designing unique and engaging game concepts.
+
+- 🧠 Gameplay Mechanics – Developing smooth and balanced game systems.
+- 🎨 Game UI Design – Creating intuitive menus and interfaces.
+- 🕹 Character Development – Designing and implementing playable characters.
+- 🌍 World Building – Creating immersive game environments and maps.
+- ⚙ Physics & Movement Systems – Coding realistic or stylized motion.
+- 🧩 AI Programming – Developing intelligent NPC behavior.
+- 📜 Story & Narrative Design – Crafting engaging plots and dialogues.
+- 🔫 Combat System Design – Creating dynamic attack and defense mechanics.
+- 🌐 Multiplayer Integration – Implementing online and local multiplayer systems.
+- 💾 Save & Progress Systems – Managing player data and achievements.
+- 📱 Cross-Platform Development – Publishing games for mobile, PC, or console.
+- 🔊 Sound & Effects Integration – Adding immersive audio experience.
+- 📈 Performance Optimization – Reducing lag and improving frame rates.
+- 🧪 Game Testing & Debugging – Identifying and fixing gameplay issues.
+- 💰 Monetization Systems – Implementing in-app purchases or reward systems.
+- 🛠 Game Engine Expertise – Working with tools like Unity or Unreal.
+- 🎥 Cinematics & Cutscenes – Designing in-game storytelling visuals.
+- 📢 Game Publishing Support – Preparing builds for release.
+- 🚀 Continuous Game Innovation – Exploring new mechanics and technologies.
