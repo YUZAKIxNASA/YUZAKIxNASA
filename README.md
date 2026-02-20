@@ -40,7 +40,7 @@
 
 <h3 align="left">More About Me:</h3>
 
-<h3 align="center"> I'M WEBSITE DEVELOPER + WEBSITE DEVELOPER </h3>
+<h3 align="center"> I'M WEBSITE DEVELOPER +  WWEBSITE DESIGNER </h3>
 
 - 💻 Custom Website Development – Crafting unique and fully functional websites from scratch.  
 
