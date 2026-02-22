@@ -2,7 +2,7 @@
   <img src="https://github.com/YUZAKIxNASA/YUZAKIxNASA/blob/main/YUZAKIxNASA.gif" alt="Profile Banner" width="100%">
 </p>
 
-<h1 align="center">Hi 👋, I'm NASA-KUNN!! ❤️‍🩹</h1>
+<h1 align="center">Hello! 👋, I'm NASA-KUNN!! ❤️‍🩹</h1>
 
 <h3 align="center">-
 जीवनस्य अर्थः ज्ञानं प्राप्तुं भवति।🕉️</h3>
