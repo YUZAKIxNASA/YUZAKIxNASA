@@ -23,7 +23,7 @@
   </a>
 
 <a href="https://discord.com/users/nasax19" target="_blank" rel="noreferrer noopener" title="Discord" class="social-icon-link">
-    <img src="https://cdn.simpleicons.org/discord" alt="Discord" height="35" width="35" style="vertical-align: middle;"/>
+    <img src="facebook.png" alt="Discord" height="35" width="35" style="vertical-align: middle;"/>
   </a>
   
 </p>
