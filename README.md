@@ -10,8 +10,8 @@
 <h3 align="left">Connect with me:</h3>
 <div class="social-icons-wrapper">
 <p style="text-align: left; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
-<a href="https://github.com/YUZAKIxNASA" target="_blank" rel="noreferrer noopener" title="GitHub" class="social-icon-link">
-    <img src="https://cdn.simpleicons.org/github" alt="GitHub" height="35" width="35" style="vertical-align: middle;"/>
+
+ <img src="telegram.png" alt="GitHub" height="35" width="35" style="vertical-align: middle;"/>
   </a>
   
   <a href="https://instagram.com/Yuzaki_x_nasa" target="_blank" rel="noreferrer noopener" title="Instagram" class="social-icon-link">
