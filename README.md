@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/YUZAKIxNASA/YUZAKIxNASA/blob/main/YUZAKIxNASA.gif" alt="Profile Banner" width="100%">
+  <img src="banner 0.2.0v.gif" alt="Profile Banner" width="100%">
 </p>
 
 <h1 align="center">Hello!👋, I'm NASA-KUNN!! ❤️‍🩹</h1>
