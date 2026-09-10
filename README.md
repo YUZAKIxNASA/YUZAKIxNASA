@@ -11,7 +11,7 @@
 <div class="social-icons-wrapper">
 <p style="text-align: left; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;">
 
- <img src="telegram.png" alt="GitHub" height="35" width="35" style="vertical-align: middle;"/>
+ <img src="telegram.png" alt="GitHub" height="35" width="35" style="vertical-align: middle; style="margin:4px;"/>
   </a>
   
   <a href="https://instagram.com/Yuzaki_x_nasa" target="_blank" rel="noreferrer noopener" title="Instagram" class="social-icon-link">
