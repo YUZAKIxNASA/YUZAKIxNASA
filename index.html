@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>yuzaki nasa</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%2318181B'/><text x='50' y='64' font-size='24' font-weight='bold' fill='white' text-anchor='middle' font-family='sans-serif'>N4!</text></svg>" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAVBAR -->
+  <header id="navbar" class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <div class="logo-box">@ঔৣ፝ N4!</div>
+        <span class="logo-text">yuzaki nasa</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn-primary">
+          <span>Let's talk</span>
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+      </div>
+
+      <button id="mobile-menu-btn" class="mobile-toggle" aria-label="Toggle menu">
+        <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-menu" class="mobile-drawer hidden">
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#skills" class="mobile-link">Skills</a>
+      <a href="#services" class="mobile-link">Services</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <a href="#contact" class="btn-primary full-width mt-4">
+        <span>Let's talk</span>
+        <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Left -->
+          <div class="hero-content">
+            <div class="hero-meta">
+              <span class="meta-tag font-bold text-base text-main">जीवनस्य अर्थः ज्ञानं प्राप्तुं भवति।</span>
+            </div>
+
+            <div class="hero-title-group">
+              <h1 class="hero-name">yuzaki nasa</h1>
+              <div class="typewriter-container">
+                <span id="typewriter-text">UI/UX Developer</span>
+                <span class="typewriter-cursor"></span>
+              </div>
+            </div>
+
+            <p class="hero-bio">
+              I build clean, interactive and responsive digital experiences with a focus on thoughtful design and meaningful interactions.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#projects" class="btn-primary uppercase-btn">
+                <span>VIEW PROJECTS</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+
+              <a href="#contact" class="btn-secondary uppercase-btn">
+                <span>START A PROJECT</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 7l10 10M17 7v10H7"/></svg>
+              </a>
+            </div>
+
+            <div class="hero-footer-info">
+              <div>
+                <span class="info-label">BASED IN</span>
+                <span class="info-value">Algeria</span>
+              </div>
+              <div>
+                <span class="info-label">CONTACT</span>
+                <a href="#contact" class="info-link">Let's talk</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Image Card Right -->
+          <div class="hero-portrait-wrapper">
+            <div class="portrait-card">
+              <div class="portrait-img-box">
+                <img src="assets/hero_character.png" alt="yuzaki nasa Character" class="portrait-img" />
+                <div class="vertical-label">— CREATIVE / DIGITAL</div>
+              </div>
+
+              <!-- Floating Badges -->
+              <div class="floating-badge badge-top-right">
+                <span class="badge-label">CURRENT ROLE</span>
+                <span id="badge-role-text" class="badge-val">UI/UX Developer</span>
+              </div>
+
+              <div class="floating-badge badge-bottom-left">
+                <span class="badge-label">BUILDING</span>
+                <span class="badge-val">Digital experiences.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SCROLL EXPLORE BAR -->
+    <div class="scroll-explore">
+      <a href="#about" class="scroll-explore-link">
+        <span>SCROLL TO EXPLORE</span>
+        <svg class="icon-sm explore-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+      </a>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section border-bottom">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">01 // ABOUT ME</span>
+          <div class="section-badge">
+            <span class="pulse-dot"></span>
+            <span>• LEARNING • BUILDING • CREATING</span>
+          </div>
+        </div>
+
+        <div class="about-hero-text">
+          <h2 class="title-large">i'm yuzaki nasa</h2>
+          <p class="subtitle-text">
+            A student and developer exploring the world of web development, data and artificial intelligence.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Left Basketball Portrait Card -->
+          <div class="about-portrait-card">
+            <div class="card-inner-box">
+              <div class="card-top-tag">
+                <span class="pill-tag">✨ Always learning</span>
+              </div>
+              <div class="about-img-frame">
+                <img src="assets/about_character.png" alt="yuzaki nasa Basketball Character" class="about-img" />
+              </div>
+              <div class="card-bottom-info">
+                <span>• PERSONAL PROFILE</span>
+                <span>2026</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Content -->
+          <div class="about-content">
+            <h3 class="about-headline">
+              Curious mind. <br />
+              <span class="text-muted font-normal">Creative developer.</span>
+            </h3>
+
+            <div class="about-paragraphs">
+              <p>I enjoy learning how technology works and turning what I learn into real projects and interactive digital experiences.</p>
+              <p>My interests move from modern web development to Python, data analysis and AI.</p>
+            </div>
+
+            <!-- Focus Cards -->
+            <div class="focus-cards-list">
+              
+              <div class="focus-card">
+                <div class="focus-left">
+                  <div class="focus-icon-box">
+                    <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                  </div>
+                  <div>
+                    <h4 class="focus-title">Web Development</h4>
+                    <p class="focus-sub">React • JavaScript</p>
+                  </div>
+                </div>
+                <span class="focus-num">01</span>
+              </div>
+
+              <div class="focus-card">
+                <div class="focus-left">
+                  <div class="focus-icon-box">
+                    <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                  </div>
+                  <div>
+                    <h4 class="focus-title">Python & Data</h4>
+                    <p class="focus-sub">NumPy • Pandas • Matplotlib</p>
+                  </div>
+                </div>
+                <span class="focus-num">02</span>
+              </div>
+
+              <div class="focus-card">
+                <div class="focus-left">
+                  <div class="focus-icon-box">
+                    <svg class="icon-md" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/><path d="M12 6v6l4 2"/></svg>
+                  </div>
+                  <div>
+                    <h4 class="focus-title">Artificial Intelligence</h4>
+                    <p class="focus-sub">Machine Learning • Deep Learning</p>
+                  </div>
+                </div>
+                <span class="focus-num">03</span>
+              </div>
+
+            </div>
+
+            <div class="pt-4">
+              <a href="#skills" class="btn-primary uppercase-btn">
+                <span>Explore my skills</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section border-bottom bg-subtle">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">02 // SKILLS</span>
+        </div>
+
+        <div class="skills-intro-grid">
+          <div>
+            <h2 class="title-medium">Languages & tools.</h2>
+          </div>
+          <div>
+            <p class="body-muted">The technologies I use, learn and explore while building my skills as a developer.</p>
+          </div>
+        </div>
+
+        <!-- Languages & Groups Grid -->
+        <div class="skills-group">
+          <div class="group-header">
+            <span class="section-tag">01 // LANGUAGES & TECHNOLOGIES</span>
+          </div>
+
+          <div class="languages-grid">
+            <div class="lang-card"><div class="lang-badge bg-orange">HTML</div><span class="lang-name">HTML</span></div>
+            <div class="lang-card"><div class="lang-badge bg-sky">CSS</div><span class="lang-name">CSS</span></div>
+            <div class="lang-card"><div class="lang-badge bg-amber">JS</div><span class="lang-name">JavaScript</span></div>
+            <div class="lang-card"><div class="lang-badge bg-blue">PHP</div><span class="lang-name">PHP</span></div>
+            <div class="lang-card"><div class="lang-badge bg-emerald">PY</div><span class="lang-name">Python</span></div>
+            <div class="lang-card"><div class="lang-badge bg-blue">SQL</div><span class="lang-name">SQL</span></div>
+            <div class="lang-card"><div class="lang-badge bg-sky">TS</div><span class="lang-name">TypeScript</span></div>
+            <div class="lang-card"><div class="lang-badge bg-amber">JQ</div><span class="lang-name">jQuery</span></div>
+            <div class="lang-card"><div class="lang-badge bg-orange">JAVA</div><span class="lang-name">Java</span></div>
+            <div class="lang-card"><div class="lang-badge bg-emerald">C#</div><span class="lang-name">C#</span></div>
+            <div class="lang-card"><div class="lang-badge bg-blue">C++</div><span class="lang-name">C++</span></div>
+            <div class="lang-card"><div class="lang-badge bg-sky">GO</div><span class="lang-name">Go</span></div>
+            <div class="lang-card"><div class="lang-badge bg-orange">RUBY</div><span class="lang-name">Ruby</span></div>
+            <div class="lang-card"><div class="lang-badge bg-amber">SWIFT</div><span class="lang-name">Swift</span></div>
+            <div class="lang-card"><div class="lang-badge bg-emerald">KT</div><span class="lang-name">Kotlin</span></div>
+            <div class="lang-card"><div class="lang-badge bg-orange">RUST</div><span class="lang-name">Rust</span></div>
+            <div class="lang-card"><div class="lang-badge bg-sky">DART</div><span class="lang-name">Dart</span></div>
+            <div class="lang-card"><div class="lang-badge bg-blue">R</div><span class="lang-name">R</span></div>
+            <div class="lang-card"><div class="lang-badge bg-amber">PERL</div><span class="lang-name">Perl</span></div>
+            <div class="lang-card"><div class="lang-badge bg-emerald">VBA</div><span class="lang-name">VBA</span></div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skills-group">
+          <div class="group-header">
+            <span class="section-tag">02 // TOOLS & PLATFORMS</span>
+          </div>
+
+          <div class="tools-grid">
+            <div class="tool-card"><div class="tool-icon">G</div><div><span class="tool-name">Git</span><span class="tool-cat">Version Control</span></div></div>
+            <div class="tool-card"><div class="tool-icon">G</div><div><span class="tool-name">GitHub</span><span class="tool-cat">Code Hosting</span></div></div>
+            <div class="tool-card"><div class="tool-icon">F</div><div><span class="tool-name">Figma</span><span class="tool-cat">UI Design</span></div></div>
+            <div class="tool-card"><div class="tool-icon">P</div><div><span class="tool-name">PostgreSQL</span><span class="tool-cat">Database</span></div></div>
+            <div class="tool-card"><div class="tool-icon">M</div><div><span class="tool-name">MongoDB</span><span class="tool-cat">NoSQL Database</span></div></div>
+            <div class="tool-card"><div class="tool-icon">N</div><div><span class="tool-name">NumPy</span><span class="tool-cat">Data Computing</span></div></div>
+            <div class="tool-card"><div class="tool-icon">L</div><div><span class="tool-name">Linux</span><span class="tool-cat">Operating System</span></div></div>
+          </div>
+        </div>
+
+        <!-- Infinite Ticker Marquee -->
+        <div class="marquee-wrapper">
+          <div class="marquee-track">
+            <div class="marquee-item"><span class="dot"></span>HTML</div>
+            <div class="marquee-item"><span class="dot"></span>CSS</div>
+            <div class="marquee-item"><span class="dot"></span>JavaScript</div>
+            <div class="marquee-item"><span class="dot"></span>PHP</div>
+            <div class="marquee-item"><span class="dot"></span>Python</div>
+            <div class="marquee-item"><span class="dot"></span>SQL</div>
+            <div class="marquee-item"><span class="dot"></span>TypeScript</div>
+            <div class="marquee-item"><span class="dot"></span>jQuery</div>
+            <div class="marquee-item"><span class="dot"></span>Java</div>
+            <div class="marquee-item"><span class="dot"></span>C#</div>
+            <div class="marquee-item"><span class="dot"></span>C++</div>
+            <div class="marquee-item"><span class="dot"></span>Go</div>
+            <div class="marquee-item"><span class="dot"></span>Ruby</div>
+            <div class="marquee-item"><span class="dot"></span>Swift</div>
+            <div class="marquee-item"><span class="dot"></span>Kotlin</div>
+            <div class="marquee-item"><span class="dot"></span>Rust</div>
+            <div class="marquee-item"><span class="dot"></span>Dart</div>
+            <div class="marquee-item"><span class="dot"></span>R</div>
+            <div class="marquee-item"><span class="dot"></span>Perl</div>
+            <div class="marquee-item"><span class="dot"></span>VBA</div>
+            <!-- Duplicate for infinite scroll -->
+            <div class="marquee-item"><span class="dot"></span>HTML</div>
+            <div class="marquee-item"><span class="dot"></span>CSS</div>
+            <div class="marquee-item"><span class="dot"></span>JavaScript</div>
+            <div class="marquee-item"><span class="dot"></span>PHP</div>
+            <div class="marquee-item"><span class="dot"></span>Python</div>
+            <div class="marquee-item"><span class="dot"></span>SQL</div>
+            <div class="marquee-item"><span class="dot"></span>TypeScript</div>
+            <div class="marquee-item"><span class="dot"></span>jQuery</div>
+            <div class="marquee-item"><span class="dot"></span>Java</div>
+            <div class="marquee-item"><span class="dot"></span>C#</div>
+            <div class="marquee-item"><span class="dot"></span>C++</div>
+            <div class="marquee-item"><span class="dot"></span>Go</div>
+            <div class="marquee-item"><span class="dot"></span>Ruby</div>
+            <div class="marquee-item"><span class="dot"></span>Swift</div>
+            <div class="marquee-item"><span class="dot"></span>Kotlin</div>
+            <div class="marquee-item"><span class="dot"></span>Rust</div>
+            <div class="marquee-item"><span class="dot"></span>Dart</div>
+            <div class="marquee-item"><span class="dot"></span>R</div>
+            <div class="marquee-item"><span class="dot"></span>Perl</div>
+            <div class="marquee-item"><span class="dot"></span>VBA</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section border-bottom">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">03 // SERVICES</span>
+          <div class="section-badge">
+            <span class="dark-dot"></span>
+            <span>• BUILDING DIGITAL EXPERIENCES</span>
+          </div>
+        </div>
+
+        <div class="services-intro max-w-2xl mb-12">
+          <h2 class="title-medium">What I can build.</h2>
+          <p class="body-muted mt-2">Digital experiences built around clean technology, thoughtful design, and smooth interaction.</p>
+        </div>
+
+        <div class="services-grid">
+          
+          <div class="service-card">
+            <div>
+              <div class="service-top">
+                <span class="service-num">01 // WEB</span>
+                <div class="service-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              </div>
+              <h3 class="service-title">Web Development</h3>
+              <p class="service-desc">Clean, responsive, and interactive web applications built with modern frontend tools and thoughtful architecture.</p>
+              <div class="service-tags">
+                <span class="tag">API Integration</span>
+                <span class="tag">Clean user experience</span>
+                <span class="tag">Responsive layouts</span>
+                <span class="tag">Modern Web</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span>EXPLORE SERVICE</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-top">
+                <span class="service-num">02 // MOBILE</span>
+                <div class="service-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg></div>
+              </div>
+              <h3 class="service-title">Mobile Development</h3>
+              <p class="service-desc">Mobile-first experiences focused on usability, rapid response, responsive layouts, and interfaces that feel natural on smaller screens.</p>
+              <div class="service-tags">
+                <span class="tag">Mobile-first UI</span>
+                <span class="tag">Smooth navigation</span>
+                <span class="tag">Responsive layouts</span>
+                <span class="tag">API connectivity</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span>EXPLORE SERVICE</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-top">
+                <span class="service-num">03 // AI / DATA</span>
+                <div class="service-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/></svg></div>
+              </div>
+              <h3 class="service-title">AI & Data Solutions</h3>
+              <p class="service-desc">Practical AI and data solutions combining Python, data analysis, machine learning, and intelligent workflows to turn data into useful results.</p>
+              <div class="service-tags">
+                <span class="tag">Python & data analysis</span>
+                <span class="tag">NumPy & Pandas</span>
+                <span class="tag">Machine learning</span>
+                <span class="tag">AI experiments</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span>EXPLORE SERVICE</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-top">
+                <span class="service-num">04 // DESIGN</span>
+                <div class="service-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+              </div>
+              <h3 class="service-title">UI / UX Design</h3>
+              <p class="service-desc">Clean and thoughtful interfaces focused on usability, clarity, stability, interaction, and consistency come together to create better digital products.</p>
+              <div class="service-tags">
+                <span class="tag">Interface design</span>
+                <span class="tag">UI structure</span>
+                <span class="tag">User flows</span>
+                <span class="tag">Wireframing</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span>EXPLORE SERVICE</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-top">
+                <span class="service-num">05 // BACKEND</span>
+                <div class="service-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg></div>
+              </div>
+              <h3 class="service-title">Backend & APIs</h3>
+              <p class="service-desc">Reliable backend foundations for connecting applications, handling data, building APIs, and creating scalable digital experiences.</p>
+              <div class="service-tags">
+                <span class="tag">REST APIs</span>
+                <span class="tag">Server-side logic</span>
+                <span class="tag">Database setup</span>
+                <span class="tag">Node.js / Python</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span>EXPLORE SERVICE</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+
+          <div class="service-card">
+            <div>
+              <div class="service-top">
+                <span class="service-num">06 // PERFORMANCE</span>
+                <div class="service-icon"><svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+              </div>
+              <h3 class="service-title">Performance & Speed</h3>
+              <p class="service-desc">Optimizing web performance, accessible structures, smooth motion animations, and fast load times for ideal user experience.</p>
+              <div class="service-tags">
+                <span class="tag">SEO & Speed</span>
+                <span class="tag">Accessibility</span>
+                <span class="tag">Code optimization</span>
+                <span class="tag">Smooth interaction</span>
+              </div>
+            </div>
+            <div class="service-footer">
+              <span>EXPLORE SERVICE</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SELECTED WORK / PROJECTS SECTION -->
+    <section id="projects" class="section border-bottom bg-subtle">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">04 // SELECTED WORK</span>
+          <span id="project-counter-top" class="font-mono text-xs">01 / 03</span>
+        </div>
+
+        <div class="projects-intro">
+          <h2 class="title-medium">My projects.</h2>
+          <p class="body-muted mt-2">Turn the pages and explore a selection of digital experiences, interfaces and interactive experiments.</p>
+        </div>
+
+        <!-- Project Display Slider Container -->
+        <div class="project-slider-wrapper">
+          <div id="project-card-container" class="project-card-grid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+
+        <!-- Carousel Slider Controls -->
+        <div class="slider-controls">
+          <div class="arrow-buttons">
+            <button id="prev-project-btn" class="slider-btn" aria-label="Previous Project">
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            </button>
+            <button id="next-project-btn" class="slider-btn" aria-label="Next Project">
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+
+          <div id="slider-dots-container" class="slider-dots">
+            <!-- Dots injected by JS -->
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MIND MAP SECTION (THINK) -->
+    <section class="section border-bottom">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">05 // THINK</span>
+        </div>
+
+        <div class="think-intro">
+          <h2 class="title-serif">think.</h2>
+          <p class="body-muted mt-2">A visual map of the things I enjoy building, exploring and improving across digital experiences.</p>
+        </div>
+
+        <div class="mindmap-canvas">
+          
+          <!-- SVG Connecting lines -->
+          <svg class="mindmap-svg" viewBox="0 0 1000 600" preserveAspectRatio="none">
+            <line x1="500" y1="300" x2="250" y2="120" id="line-01" class="map-line" />
+            <line x1="500" y1="300" x2="750" y2="120" id="line-02" class="map-line" />
+            <line x1="500" y1="300" x2="200" y2="300" id="line-03" class="map-line" />
+            <line x1="500" y1="300" x2="800" y2="300" id="line-04" class="map-line" />
+            <line x1="500" y1="300" x2="250" y2="480" id="line-05" class="map-line" />
+            <line x1="500" y1="300" x2="750" y2="480" id="line-06" class="map-line" />
+          </svg>
+
+          <div class="mindmap-nodes-grid">
+            
+            <!-- Left Nodes -->
+            <div class="nodes-column">
+              <div class="map-node-card" data-node="01">
+                <div class="node-header">
+                  <span class="node-num">01</span>
+                  <div class="node-icon"><svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg></div>
+                  <h4 class="node-title">Frontend</h4>
+                </div>
+                <p class="node-desc">Building modern interfaces with React and a strong focus on structure, responsiveness and motion.</p>
+              </div>
+
+              <div class="map-node-card" data-node="03">
+                <div class="node-header">
+                  <span class="node-num">03</span>
+                  <div class="node-icon"><svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/></svg></div>
+                  <h4 class="node-title">Web Experiences</h4>
+                </div>
+                <p class="node-desc">Turning ideas into polished digital experiences that feel smooth, responsive and interactive.</p>
+              </div>
+
+              <div class="map-node-card" data-node="05">
+                <div class="node-header">
+                  <span class="node-num">05</span>
+                  <div class="node-icon"><svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
+                  <h4 class="node-title">Python</h4>
+                </div>
+                <p class="node-desc">Working with Python for practical programming, data work and implementation.</p>
+              </div>
+            </div>
+
+            <!-- Center Node -->
+            <div class="center-node-wrapper">
+              <div class="center-card">
+                <div class="ac-logo-large" style="font-size: 0.875rem;">@ঔৣ፝ N4!</div>
+                <h3 class="center-name">yuzaki nasa</h3>
+                <p class="center-sub font-mono">Think • Build • Create</p>
+                <div class="center-badge-box">
+                  <span class="mind-pill">THE MIND</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right Nodes -->
+            <div class="nodes-column">
+              <div class="map-node-card" data-node="02">
+                <div class="node-header">
+                  <span class="node-num">02</span>
+                  <div class="node-icon"><svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg></div>
+                  <h4 class="node-title">UI / UX</h4>
+                </div>
+                <p class="node-desc">Designing interfaces around clarity, visual hierarchy, spacing and a simple user journey.</p>
+              </div>
+
+              <div class="map-node-card" data-node="04">
+                <div class="node-header">
+                  <span class="node-num">04</span>
+                  <div class="node-icon"><svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/></svg></div>
+                  <h4 class="node-title">Responsive</h4>
+                </div>
+                <p class="node-desc">Thinking about how an interface behaves across desktop, tablet and mobile screens.</p>
+              </div>
+
+              <div class="map-node-card" data-node="06">
+                <div class="node-header">
+                  <span class="node-num">06</span>
+                  <div class="node-icon"><svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+                  <h4 class="node-title">Interaction</h4>
+                </div>
+                <p class="node-desc">Using motion and micro-interactions to make interfaces feel alive without losing usability.</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- JOURNEY SECTION -->
+    <section class="section border-bottom">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">06 // JOURNEY</span>
+          <div class="section-badge">
+            <span class="dark-dot"></span>
+            <span>• CURRENTLY EXPLORING</span>
+          </div>
+        </div>
+
+        <div class="journey-intro max-w-2xl mb-12">
+          <h2 class="title-medium">Still building.</h2>
+          <p class="body-muted mt-2">A continuous journey through development, design, experimentation and personal projects.</p>
+        </div>
+
+        <div class="timeline-list">
+          
+          <div class="timeline-card">
+            <div class="timeline-main">
+              <div class="timeline-title-box">
+                <span class="timeline-num">01</span>
+                <h3 class="timeline-title">Web Foundations</h3>
+              </div>
+              <p class="timeline-focus">FOCUS: <span>Understanding how the web works and how to create clean interfaces.</span></p>
+              <div class="timeline-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive Design</span>
+                <span class="tag">JavaScript</span>
+              </div>
+            </div>
+            <div class="timeline-side">
+              <span class="timeline-idx font-mono">01 / 05</span>
+              <div class="timeline-icon-btn">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-main">
+              <div class="timeline-title-box">
+                <span class="timeline-num">02</span>
+                <h3 class="timeline-title">Frontend Development</h3>
+              </div>
+              <p class="timeline-focus">FOCUS: <span>Turning ideas and design into functional digital experiences.</span></p>
+              <div class="timeline-tags">
+                <span class="tag">React</span>
+                <span class="tag">Vite</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Component Architecture</span>
+              </div>
+            </div>
+            <div class="timeline-side">
+              <span class="timeline-idx font-mono">02 / 05</span>
+              <div class="timeline-icon-btn">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-main">
+              <div class="timeline-title-box">
+                <span class="timeline-num">03</span>
+                <h3 class="timeline-title">Interactive Experiences</h3>
+              </div>
+              <p class="timeline-focus">FOCUS: <span>Adding motion with purpose instead of decoration.</span></p>
+              <div class="timeline-tags">
+                <span class="tag">Framer Motion</span>
+                <span class="tag">Micro-interactions</span>
+                <span class="tag">Animations</span>
+                <span class="tag">Responsive UI</span>
+              </div>
+            </div>
+            <div class="timeline-side">
+              <span class="timeline-idx font-mono">03 / 05</span>
+              <div class="timeline-icon-btn">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-main">
+              <div class="timeline-title-box">
+                <span class="timeline-num">04</span>
+                <h3 class="timeline-title">Python & Programming</h3>
+              </div>
+              <p class="timeline-focus">FOCUS: <span>Working with Python for practical programming, data work and implementation.</span></p>
+              <div class="timeline-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Data Analysis</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Automation</span>
+              </div>
+            </div>
+            <div class="timeline-side">
+              <span class="timeline-idx font-mono">04 / 05</span>
+              <div class="timeline-icon-btn">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-card">
+            <div class="timeline-main">
+              <div class="timeline-title-box">
+                <span class="timeline-num">05</span>
+                <h3 class="timeline-title">Personal Experiments</h3>
+              </div>
+              <p class="timeline-focus">FOCUS: <span>Building real products, e-commerce apps, and AI/ML experiments.</span></p>
+              <div class="timeline-tags">
+                <span class="tag">StockDZ</span>
+                <span class="tag">Portfolio</span>
+                <span class="tag">Hangman</span>
+                <span class="tag">AI Experiments</span>
+              </div>
+            </div>
+            <div class="timeline-side">
+              <span class="timeline-idx font-mono">05 / 05</span>
+              <div class="timeline-icon-btn">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section border-bottom bg-subtle">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">GET IN TOUCH</span>
+        </div>
+
+        <div class="contact-intro mb-12">
+          <h2 class="title-medium">Have a project in mind?</h2>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Left Column Info -->
+          <div class="contact-info">
+            <div>
+              <span class="info-tag font-mono">01 START A CONVERSATION</span>
+              <h3 class="contact-headline">Let's make something meaningful.</h3>
+            </div>
+
+            <div class="email-box">
+              <span class="font-mono text-xs text-muted block">EMAIL</span>
+              <a href="mailto:yuzaki@nasa.pro" class="email-link">
+                <span>yuzaki@nasa.pro</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+              </a>
+            </div>
+
+            <div class="based-box">
+              <span class="font-mono text-xs text-muted block">BASED IN</span>
+              <p class="font-bold text-main">Algeria - Working worldwide</p>
+            </div>
+
+            <div class="status-card">
+              <div class="status-top">
+                <span class="pulse-dot"></span>
+                <span class="status-title">Available for new projects</span>
+              </div>
+              <p class="status-desc">Open to interesting ideas & collaborations.</p>
+            </div>
+
+            <p class="contact-quote">"Good design starts with a good conversation."</p>
+          </div>
+
+          <!-- Right Column Form -->
+          <div class="contact-form-card">
+            <span class="font-mono text-xs text-muted block mb-6">02 Tell me about your project</span>
+
+            <form id="contact-form" class="form-layout">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label">Your name</label>
+                  <input type="text" id="form-name" required placeholder="enter your name" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Email address</label>
+                  <input type="email" id="form-email" required placeholder="enter your Email" class="form-input" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">What are you looking to build?</label>
+                <select id="form-type" class="form-select">
+                  <option value="">Select a project type</option>
+                  <option value="Web Application">Web Application</option>
+                  <option value="UI/UX Design">UI / UX Design</option>
+                  <option value="Mobile App">Mobile App</option>
+                  <option value="AI & Data Solution">AI & Data Solution</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Tell me about it</label>
+                <textarea id="form-message" rows="4" required placeholder="Tell me what you're building, what you need, and what you're aiming for..." class="form-textarea"></textarea>
+              </div>
+
+              <div class="form-footer">
+                <span class="form-note font-mono">Usually replies within 24-48h.</span>
+                <button type="submit" class="btn-primary uppercase-btn">
+                  <span>Send message</span>
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+                </button>
+              </div>
+            </form>
+
+            <div id="form-success" class="form-success hidden">
+              <svg class="icon-xl text-emerald" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <h4 class="success-title">Message Received!</h4>
+              <p class="success-desc">Thank you for reaching out. I'll read your message and reply back within 24-48 hours.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2026 yuzaki nasa. All rights reserved.</div>
+      <button id="back-to-top-btn" class="back-to-top">
+        <span>Back to top</span>
+        <svg class="icon-xs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+      </button>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
