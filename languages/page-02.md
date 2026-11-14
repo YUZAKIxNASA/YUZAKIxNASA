@@ -11,6 +11,15 @@
 </table>
 
 <table>
+<tr><td width="25%" align="left">[⬅ Previous](../README.md)</td><td width="50%" align="center"><b>PAGE 02 / 18</b></td><td width="25%" align="right">[Next ➜](page-03.md)</td></tr>
+</table>
+
+<p align="center">
+[<img src="https://img.shields.io/badge/01-30363D?style=for-the-badge" alt="Page 1" height="26"/>](../README.md) <img src="https://img.shields.io/badge/02-2563EB?style=for-the-badge" alt="Page 2 current" height="26"/> [<img src="https://img.shields.io/badge/03-30363D?style=for-the-badge" alt="Page 3" height="26"/>](page-03.md) [<img src="https://img.shields.io/badge/04-30363D?style=for-the-badge" alt="Page 4" height="26"/>](page-04.md) [<img src="https://img.shields.io/badge/05-30363D?style=for-the-badge" alt="Page 5" height="26"/>](page-05.md) [<img src="https://img.shields.io/badge/06-30363D?style=for-the-badge" alt="Page 6" height="26"/>](page-06.md) [<img src="https://img.shields.io/badge/07-30363D?style=for-the-badge" alt="Page 7" height="26"/>](page-07.md) [<img src="https://img.shields.io/badge/08-30363D?style=for-the-badge" alt="Page 8" height="26"/>](page-08.md) [<img src="https://img.shields.io/badge/09-30363D?style=for-the-badge" alt="Page 9" height="26"/>](page-09.md) [<img src="https://img.shields.io/badge/10-30363D?style=for-the-badge" alt="Page 10" height="26"/>](page-10.md) [<img src="https://img.shields.io/badge/11-30363D?style=for-the-badge" alt="Page 11" height="26"/>](page-11.md) [<img src="https://img.shields.io/badge/12-30363D?style=for-the-badge" alt="Page 12" height="26"/>](page-12.md) [<img src="https://img.shields.io/badge/13-30363D?style=for-the-badge" alt="Page 13" height="26"/>](page-13.md) [<img src="https://img.shields.io/badge/14-30363D?style=for-the-badge" alt="Page 14" height="26"/>](page-14.md) [<img src="https://img.shields.io/badge/15-30363D?style=for-the-badge" alt="Page 15" height="26"/>](page-15.md) [<img src="https://img.shields.io/badge/16-30363D?style=for-the-badge" alt="Page 16" height="26"/>](page-16.md) [<img src="https://img.shields.io/badge/17-30363D?style=for-the-badge" alt="Page 17" height="26"/>](page-17.md) [<img src="https://img.shields.io/badge/18-30363D?style=for-the-badge" alt="Page 18" height="26"/>](page-18.md)
+</p>
+<p align="center"><sub>50 languages per page · 900 total</sub></p>
+
+<table>
   <tr>
     <td align="left" width="25%">[⬅ Previous](../README.md)</td>
     <td align="center" width="50%"><b>PAGE 02 / 18</b></td>
